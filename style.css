@@ -1,0 +1,44 @@
+body {
+
+  background-color: #00B4D8;
+
+}
+
+hr{
+
+  background-color: #00B4D8  ;
+
+  border-style: none;
+  height: 10px;
+
+  width: 30%;
+  border-top: dotted 5px;"
+}
+
+h1{
+
+  color: #051367 ;
+}
+
+img{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  hieght : 200px;
+  animation-name: logo;
+  transition: width 2s ;
+
+
+}
+ logo : hover{
+   width: 400px;
+ }
+@@keyframes logo {
+  0%   {left:0px; top:0px;}
+   25% {left:200px; top:0px;}
+   50%  {left:200px; top:200px;}
+   75%  {left:0px; top:200px;}
+   100% {left:0px; top:0px;}
+}
